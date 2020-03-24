@@ -1,0 +1,16 @@
+# small town in which nodes represent intersections between streets
+# each node contains an x,y coordinate point that defines its 
+# location. 
+# the weights of the edges are simply their length on the grid
+# using a simple distance calculation sqrt((x1 - x2)^2 + (y1 - y2)^2)
+#id	x	y	adjacency
+0	.75	1.9	1	2
+1	3	.75	0	2	9
+2	4	2.6	0	1	3	4
+3	2	3.6	2	5
+4	5	4.25	2	5	7
+5	2.8	5.4	3	4	6
+6	4.9	6.6	5	7
+7	8	6	4	6	8
+8	10	4	7	9
+9	8	2	1	8
